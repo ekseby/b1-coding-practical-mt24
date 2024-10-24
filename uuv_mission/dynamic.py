@@ -3,9 +3,10 @@ from dataclasses import dataclass
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
-from .terrain import generate_reference_and_limits
+from terrain import generate_reference_and_limits
 from dynamic import ClosedLoop, Submarine, Mission
 from control import PDController
+from terrain import generate_reference_and_limits
 
 class Submarine:
     def __init__(self):
